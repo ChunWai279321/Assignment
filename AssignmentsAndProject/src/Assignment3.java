@@ -50,7 +50,7 @@ public class Assignment3 {
 		System.out.println("20% discount is given if you buy more than 10\n");
 		System.out.print("What product are you prefer (Enter the code, 0 to end): ");
 		int shoe=in.nextInt();
-		for (int i = 0; i<1000000; i++) {	
+		for (int i = 0; i<Integer.MAX_VALUE; i++) {	
 		if (shoe==1) {
 			System.out.print("How many pair of sneakers you want to order: ");
 			int q0=in.nextInt();
